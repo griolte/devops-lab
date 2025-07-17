@@ -1,5 +1,7 @@
 # DevOps Lab – griolte
 
+[![CI for Backup Script](https://github.com/griolte/devops-lab/actions/workflows/ci-backup.yml/badge.svg)](https://github.com/griolte/devops-lab/actions/workflows/ci-backup.yml)
+
 This repository showcases a professional DevOps environment built from scratch.  
 It includes automation, containerization, CI/CD, monitoring, and clean infrastructure practices.
 
