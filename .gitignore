@@ -1,0 +1,20 @@
+# Global
+__pycache__/
+*.pyc
+*.log
+.env
+*.DS_Store
+
+# Python
+python-monitor/.venv/
+python-monitor/tests/
+python-monitor/.pytest_cache/
+
+# Docker
+**/.dockerignore
+
+# Backups (optional, comment if needed)
+backups/*.tar.gz
+
+# VS Code
+.vscode/

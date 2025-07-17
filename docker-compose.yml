@@ -1,8 +1,24 @@
-version: '3.9'
-
 services:
   backup:
     build: ./backup-script
+    container_name: bash-backup
     volumes:
       - ./data:/data
       - ./backups:/backup
+
+  monitor:
+    build:
+      context: ./python-monitor
+    container_name: python-monitor
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backups:/app/shared
+
+  gateway:
+    build: ./nginx-gateway
+    container_name: nginx-gateway
+    ports:
+      - "80:80"
+    depends_on:
+      - monitor
