@@ -88,10 +88,10 @@ touch backups/backup-$(date +%F).tar.gz
 Add these to a folder like `captures/`:
 
 - ✅ API OK:  
-  ![OK](./captures/status-ok.png)
+  ![OK](./captures/api-ok.png)
 
 - ❌ API Error (no backup):  
-  ![ERROR](./captures/status-error.png)
+  ![ERROR](./captures/api-error.png)
 
 ---
 
