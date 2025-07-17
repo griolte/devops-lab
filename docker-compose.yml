@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  backup:
+    build: ./backup-script
+    volumes:
+      - ./data:/data
+      - ./backups:/backup
