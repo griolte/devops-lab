@@ -20,6 +20,16 @@ This repository is structured by modules and serves as a **portfolio project**.
 
 ---
 
+## Done
+
+- [x] Initial CI (build/test)
+- [x] README badges
+- [x] Terraform skeleton
+- [x] First AWS deployment (EC2 test)
+- [x] Release v0.1.0
+
+---
+
 ## Roadmap
 
 - [ ] Terraform backend (S3 + DynamoDB state)
