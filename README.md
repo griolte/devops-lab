@@ -1,6 +1,8 @@
 # devops-lab
-
 [![CI](https://github.com/griolte/devops-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/griolte/devops-lab/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Terraform](https://img.shields.io/badge/Terraform-≥1.12-blue?logo=terraform)](https://www.terraform.io)
+[![TFLint](https://img.shields.io/badge/TFLint-enabled-brightgreen)](https://github.com/terraform-linters/tflint)
 
 Showcase DevOps/SRE lab: infrastructure as code (Terraform), containers (Docker), orchestrator (Kubernetes), observability, and security.  
 This repository is structured by modules and serves as a **portfolio project**.
@@ -15,6 +17,20 @@ This repository is structured by modules and serves as a **portfolio project**.
 - `observability/` — Logs, metrics, traces  
 - `security/` — Scans & policies  
 - `docs/` — Documentation & diagrams  
+
+---
+
+## Roadmap
+
+- [ ] Terraform backend (S3 + DynamoDB state)
+- [ ] IAM user `terraform-lab` + AWS CLI profile `devops-lab`
+- [ ] CI enhancements: `terraform fmt` / `tflint` / `terraform validate` / `plan` on PR
+- [ ] Auto-generate module docs with `terraform-docs`
+- [ ] Basic monitoring (CloudWatch logs/metrics)
+- [ ] Containers: build & push with GitHub Actions → Docker Hub
+- [ ] Demo application (Flask) deployed behind Nginx
+- [ ] Unit tests + coverage badge
+- [ ] Multi-environment setup with Terraform workspaces (dev/stage)
 
 ---
 
