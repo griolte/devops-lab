@@ -140,28 +140,28 @@ flowchart LR
 ## Screenshots (deliverables)
 
 ### Terraform apply
-![Terraform Apply](docs/releases/v0.1.0/screenshots/08_terraform_apply.png)
+![Terraform Apply](../../docs/releases/v0.1.0/screenshots/08_terraform_apply.png)
 
 ### VPC
-![VPC](docs/releases/v0.1.0/screenshots/01_vpc.png)
+![VPC](../../docs/releases/v0.1.0/screenshots/01_vpc.png)
 
 ### Internet Gateway
-![Internet Gateway](docs/releases/v0.1.0/screenshots/02_internet_gateway.png)
+![Internet Gateway](../../docs/releases/v0.1.0/screenshots/02_internet_gateway.png)
 
 ### Route Table
-![Route Table](docs/releases/v0.1.0/screenshots/03_route_table.png)
+![Route Table](../../docs/releases/v0.1.0/screenshots/03_route_table.png)
 
 ### Subnets
-![Subnets](docs/releases/v0.1.0/screenshots/04_subnets.png)
+![Subnets](../../docs/releases/v0.1.0/screenshots/04_subnets.png)
 
 ### Security Group (Inbound)
-![Security Group Inbound](docs/releases/v0.1.0/screenshots/05_security_group_inbound.png)
+![Security Group Inbound](../../docs/releases/v0.1.0/screenshots/05_security_group_inbound.png)
 
 ### Security Group (Outbound)
-![Security Group Outbound](docs/releases/v0.1.0/screenshots/06_security_group_outbound.png)
+![Security Group Outbound](../../docs/releases/v0.1.0/screenshots/06_security_group_outbound.png)
 
 ### EC2 Instance
-![EC2 Instance](docs/releases/v0.1.0/screenshots/07_ec2_instance.png)
+![EC2 Instance](../../docs/releases/v0.1.0/screenshots/07_ec2_instance.png)
 
 ---
 
