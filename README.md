@@ -26,13 +26,13 @@ This repository is structured by modules and serves as a **portfolio project**.
 - [x] README badges
 - [x] Terraform skeleton
 - [x] First AWS deployment (EC2 test)
-- [x] Release v0.1.0
+- [x] [Release v0.1.0](docs/releases/v0.1.0/RELEASE.md) — Local backend
+- [x] [Release v0.2.0](docs/releases/v0.2.0/RELEASE.md) — Remote backend with **S3 + DynamoDB**
 
 ---
 
 ## Roadmap
 
-- [ ] Terraform backend (S3 + DynamoDB state)
 - [ ] IAM user `terraform-lab` + AWS CLI profile `devops-lab`
 - [ ] CI enhancements: `terraform fmt` / `tflint` / `terraform validate` / `plan` on PR
 - [ ] Auto-generate module docs with `terraform-docs`
