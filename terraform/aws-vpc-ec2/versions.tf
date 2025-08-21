@@ -7,7 +7,4 @@ terraform {
       version = "~> 5.0"
     }
   }
-
-  # Backend distant S3 (paramétré via backend.hcl à l'init)
-  backend "s3" {}
 }
