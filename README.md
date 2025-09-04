@@ -1,7 +1,7 @@
 # devops-lab
 [![CI](https://github.com/griolte/devops-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/griolte/devops-lab/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Terraform](https://img.shields.io/badge/Terraform-≥1.12-blue?logo=terraform)](https://www.terraform.io)
+[![Terraform](https://img.shields.io/badge/Terraform-=1.12.2-blue?logo=terraform)](https://www.terraform.io)
 [![TFLint](https://img.shields.io/badge/TFLint-enabled-brightgreen)](https://github.com/terraform-linters/tflint)
 
 Showcase DevOps/SRE lab: infrastructure as code (Terraform), containers (Docker), orchestrator (Kubernetes), observability, and security.  
@@ -26,8 +26,9 @@ This repository is structured by modules and serves as a **portfolio project**.
 - [x] README badges
 - [x] Terraform skeleton
 - [x] First AWS deployment (EC2 test)
-- [x] [Release v0.1.0](docs/releases/v0.1.0/RELEASE.md) — Local backend
+- [x] [Release v0.1.0](docs/releases/v0.1.0/RELEASE.md) — Local backend (VPC + EC2)
 - [x] [Release v0.2.0](docs/releases/v0.2.0/RELEASE.md) — Remote backend with **S3 + DynamoDB**
+- [x] [Release v0.3.0](docs/releases/v0.3.0/RELEASE.md) — AWS VPC using official Terraform module
 
 ---
 
@@ -41,6 +42,7 @@ This repository is structured by modules and serves as a **portfolio project**.
 - [ ] Demo application (Flask) deployed behind Nginx
 - [ ] Unit tests + coverage badge
 - [ ] Multi-environment setup with Terraform workspaces (dev/stage)
+- [ ] [Release v0.4.0](docs/releases/v0.4.0/RELEASE.md) — GCP VPC + e2-micro VM (Free Tier)
 
 ---
 
